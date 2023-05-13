@@ -1,0 +1,22 @@
+{
+    "editor.wordWrap": "on",
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#00FFFF",
+        "activityBarBadge.background": "#00FF88",
+    },
+    "editor.tokenColorCustomizations": {
+        "comments":"#ffd900",
+        "[Tommorow Night Blue]": {
+            "keywords": "#ff00ea",
+            "variables": "#ffee00",
+            "comments": "#00ffff",
+            "functions": "#00FF88"
+        },
+        "[Shades of Purple (Super Dark)]": {
+            "keywords": "#b700ff",
+            "variables": "#ffee00",
+            "comments": "#c300ff",
+            "functions": "#ff9900"
+        }
+    }
+}
