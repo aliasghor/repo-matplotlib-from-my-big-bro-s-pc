@@ -1,22 +1,32 @@
 {
     "editor.wordWrap": "on",
+    "editor.fontSize": 16,
     "workbench.colorCustomizations": {
-        "activityBar.foreground": "#00FFFF",
-        "activityBarBadge.background": "#00FF88",
+        "activityBar.foreground": "#e100ff",
+        "activityBarBadge.background": "#ff0000",
     },
     "editor.tokenColorCustomizations": {
         "comments":"#ffd900",
-        "[Tommorow Night Blue]": {
-            "keywords": "#ff00ea",
+        "[2077]": {
+            "keywords": "#fbff00",
             "variables": "#ffee00",
             "comments": "#00ffff",
-            "functions": "#00FF88"
+            "functions": "#eeff00"
         },
         "[Shades of Purple (Super Dark)]": {
-            "keywords": "#b700ff",
-            "variables": "#ffee00",
-            "comments": "#c300ff",
-            "functions": "#ff9900"
-        }
+            "keywords": "#ffd900",
+            "variables": "#e27901",
+            "comments": "#00fff2",
+            "functions": "#ff9900",
+            "strings": "#00ffff",
+            "textMateRules": [
+                {
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#ea00ff"
+                        }
+                }
+                ]
+        },
     }
 }
